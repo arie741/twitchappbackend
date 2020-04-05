@@ -1,0 +1,25 @@
+{
+  "name": "twitchapp-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "json-beautify": "^1.1.1",
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.2",
+    "pg-promise": "^10.4.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "uuid": "^7.0.2"
+  }
+}
